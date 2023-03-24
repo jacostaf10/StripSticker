@@ -11,6 +11,8 @@
 		4F5BC90729CDA34600D72993 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BC90629CDA34600D72993 /* ContentView.swift */; };
 		4F5BC90929CDA34700D72993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BC90829CDA34700D72993 /* Assets.xcassets */; };
 		4F5BC90C29CDA34700D72993 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F5BC90B29CDA34700D72993 /* Preview Assets.xcassets */; };
+		4F5BC91329CDA43900D72993 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BC91229CDA43900D72993 /* CardView.swift */; };
+		4F5BC91529CDA58900D72993 /* PeelEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5BC91429CDA58900D72993 /* PeelEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4F5BC90629CDA34600D72993 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F5BC90829CDA34700D72993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F5BC90B29CDA34700D72993 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4F5BC91229CDA43900D72993 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		4F5BC91429CDA58900D72993 /* PeelEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeelEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				4F5BC90629CDA34600D72993 /* ContentView.swift */,
 				4F5BC90829CDA34700D72993 /* Assets.xcassets */,
 				4F5BC90A29CDA34700D72993 /* Preview Content */,
+				4F5BC91229CDA43900D72993 /* CardView.swift */,
+				4F5BC91429CDA58900D72993 /* PeelEffect.swift */,
 			);
 			path = StripSticker;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F5BC90729CDA34600D72993 /* ContentView.swift in Sources */,
+				4F5BC91329CDA43900D72993 /* CardView.swift in Sources */,
+				4F5BC91529CDA58900D72993 /* PeelEffect.swift in Sources */,
 				4F5BC90529CDA34600D72993 /* StripStickerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

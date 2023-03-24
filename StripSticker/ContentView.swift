@@ -10,12 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            PeelEffect {
+                CardView(image: "tools")
+            } onDelete: {
+                let _ = withAnimation(.easeInOut(duration: 0.35)) {
+                    
+                }
+            }
+
+        }.padding(.horizontal)
     }
 }
 
