@@ -16,6 +16,8 @@ struct ContentView: View {
                 let _ = withAnimation(.easeInOut(duration: 0.35)) {
                     
                 }
+            } secondaryAction: {
+                
             }
 
         }.padding(.horizontal)
